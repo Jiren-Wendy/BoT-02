@@ -66,9 +66,9 @@ Fg.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg'
 				}
-				teks = `Hola @${num.split('@')[0]}\nBienvenido/a al Grupo *${mdata.subject}*
+				teks = `Hola👋 @${num.split('@')[0]}\nBienvenido/a al Grupo *${mdata.subject}*
 
-▢ *Pide las reglas del grupo* para evitar ser baneado
+▢ *Lee las reglas del grupo* para evitar ser baneado.
 
 ▢ *📌 Descripción :* \n${mdata.desc}
 `
@@ -86,7 +86,7 @@ Fg.on('group-participants-update', async (anu) => {
 ┌──────────────
 ▢ *Nombre* : @${num.split('@')[0]}
 ▢ *Número* : ${num.replace('@s.whatsapp.net', '')}
-▢ *Mensaje* : Felicidades  Admin 🎉
+▢ *Mensaje* : Felicidades Al Nuevo Admin 🎉
 └──────────────`
 				let buff = await getBuffer(ppimg)
 				Fg.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
@@ -97,11 +97,11 @@ Fg.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i.ibb.co/PZNv21q/Profile-FG98.jpg'
 				}
-				teks = `≡ *ADMIN DEGRADADO*
+				teks = `≡ *ADMIN DADO DE BAJA*
 ┌──────────────
 ▢ *Nombre* : @${num.split('@')[0]}
 ▢ *Número* : ${num.replace('@s.whatsapp.net', '')}
-▢ *Mensaje* : Lo siento :'v
+▢ *Mensaje* : Lo siento Se Te Quitó El Admin:'v
 └──────────────`
 				let buff = await getBuffer(ppimg)
 				Fg.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
