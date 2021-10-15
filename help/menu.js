@@ -5,8 +5,7 @@ exports.help = (prefix,pushname) => {
 ┌──────────────
 ❐ *prefijo* /
 ❐ *Grupo Ofc* ☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾
-     https://bit.ly/3yt247X
-❐ *${prefix}changelog*
+    https://bit.ly/3yt247X
 ❐ *${prefix}reglas*
 ❐ *${prefix}creador*
 ❐ *${prefix}info*
@@ -16,7 +15,6 @@ exports.help = (prefix,pushname) => {
 ❐ *${prefix}runtime*
 ❐ *${prefix}estado*
 ❐ *${prefix}soporte*
-❐ *${prefix}Join*
 ❐ *${prefix}banlist*
 ❐ *prefijo* \
 └──────────────
@@ -138,8 +136,6 @@ exports.help = (prefix,pushname) => {
 ▢ *${prefix}unban*
 ▢ *${prefix}clearchat*
 ▢ *${prefix}listagp*
-▢ *${prefix}informes*
-▢ *${prefix}solicitudes*
 ▢ *${prefix}clonar*
 └──────────────
 _*TE AMO WENDY❤️*_
