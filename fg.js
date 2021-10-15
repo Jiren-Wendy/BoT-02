@@ -725,7 +725,7 @@ break
 case 'soporte':
 case 'support':
  if (!isVerify) return reply(userB(prefix))
-     dyluxf = `📌 *Grupo soporte del Bot*
+     Jiren Y Wendy = `📌 *Grupo soporte del Bot*
 
 ${soportefg}`
       reply(dyluxf) 
@@ -813,7 +813,7 @@ Fg.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact, 
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi segundo dueño :v, solo chatea si es necesario`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi segundo dueño osea es el mismo que el primero pero bueno:v, solo chatea si es necesario`, text, {quoted: res}))
  break
 
 case 'status':
