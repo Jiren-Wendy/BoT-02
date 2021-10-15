@@ -725,7 +725,7 @@ break
 case 'soporte':
 case 'support':
  if (!isVerify) return reply(userB(prefix))
-     Jiren Y Wendy = `📌 *Grupo soporte del Bot*
+     dyluxf = `📌 *Grupo soporte del Bot*
 
 ${soportefg}`
       reply(dyluxf) 
