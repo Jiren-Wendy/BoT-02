@@ -656,8 +656,8 @@ break;
 case 'info':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-const fgnum = `59172945992@s.whatsapp.net`
-const crisnum = "529631769130@s.whatsapp.net"
+const fgnum = `79058398754@s.whatsapp.net`
+const crisnum = "5213521175442@s.whatsapp.net"
 runtime2 = process.uptime()
 const timestamp2 = speed();
 const latensi2 = speed() - timestamp2
@@ -679,8 +679,9 @@ infobot =`⊷ *BOT*
 ⊷ *AGRADECIMIENTOS* ⊶
 ▢ *Jiren* :
 @${fgnum.split("@")[0]}
-_*Diseñador del bot*_
-_Nc_
+
+_*J&W*_
+_Numero alternativo_
 ▢ *Jiren* :
 @${crisnum.split("@")[0]}
 
