@@ -113,8 +113,8 @@ const mods = confi.mods
 const ownerName = confi.nombreCreador
 
 //---------𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦---------
-const soportefg = 'https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK' 
-const instafg = 'https://www.instagram.com/fg98._'
+const soportefg = 'https://chat.whatsapp.com/IIPycRBYF19F42yQETelNR' 
+const instafg = 'No Hay._'
 
 //-----fakethumb-----
 fakefg = fs.readFileSync('./image/fake.jpg')
@@ -582,7 +582,7 @@ Fg.groupRemove(from, [sender])
 }
 }
 	
-	
+
 
  if (!isGroup && isCmd) console.log(color('[FG98]','aqua'), "Pv", color(command, "blue"), "de", (sender.split('@')[0]),  args.length)
 if (isGroup && isCmd) console.log(color('[FG98]','aqua'), "Gp", color(command, "green"), "de", (sender.split('@')[0]), "en", (groupName), args.length)
@@ -801,12 +801,12 @@ if (!isVerify) return reply(userB(prefix))
 case 'owner':
 case 'creator':
 case 'creador': 
-case 'developer':
+case 'developer': 
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact, { quoted: mek})
 //Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo chatea si es necesario`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo escribe si es necesario y cuando tenga tiempo o este sin pereza.`, text, {quoted: res}))
  break
  case 'codueño':
  case 'coowner':
@@ -833,7 +833,7 @@ case 'solicitud':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
   yoi = q
-  if (args.length < 1) return reply('✳️ Ingrese las funciones que desee en el Bot *DyLux*')
+  if (args.length < 1) return reply('✳️ Ingrese las funciones que desee en el Bot *Bot-02-Anime&Mas*')
   if (yoi.length > 200 ) return reply('El texto supera el límite, su solicitud es rechazada !')
   _solicitud.push(yoi)
   fs.writeFileSync('./result/reportes/solicitud.json', JSON.stringify(_solicitud))
@@ -1197,7 +1197,7 @@ case 'enlinea':
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
     
 			    let online = [...Object.keys(Fg.chats.get(ido).presences), Fg.user.jid]
-			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*©POWERED BY Dylux ┃ ᴮᴼᵀ*`, text, { quoted: mek,
+			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*🔥 *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ*`, text, { quoted: mek,
   			  contextInfo: { mentionedJid: online }
     
 			    })
@@ -1383,7 +1383,7 @@ case 'staff':
 					for (let admin of groupAdmins) {
 						teks += `▢ @${admin.split('@')[0]}\n`
 					}
-					teks += `└────✪ Dylux ┃ ᴮᴼᵀ ✪────`
+					teks += `└────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ✪────`
 					mentions(teks, groupAdmins, true)
 					break
 
@@ -1487,7 +1487,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 J&W ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1510,7 +1510,7 @@ anur = await imgbb2r("20a14861e4f7591f3dc52649cb07ae02", './stickrip.jpeg')
 txtr = `${anur.display_url}`
 srip = await getBuffer(`https://pecundang.herokuapp.com/api/rip?url=${txtr}`)
 const bas642r = `data:image/jpeg;base64,${srip.toString('base64')}`
-var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2r = await convertSticker(bas642r, `💎 @fg98._`, `🔮 J&W ┃ ᴮᴼᵀ`)
 var imageBuffer2r = new Buffer.from(mantap2r, 'base64');
 Fg.sendMessage(from, imageBuffer2r, sticker, {quoted: mek})
 fs.unlinkSync('./stickrip.jpeg')
@@ -1563,7 +1563,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 J&W ┃ ᴮᴼᵀ`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -1587,7 +1587,7 @@ var imgbb = require('imgbb-uploader')
 					teks = `${anu.display_url}`
 					ranp = getRandom('.gif')
 					rano = getRandom('.webp')
-					anu2 = `https://some-random-api.ml/canvas/wasted?avatar=${teks}`
+					anu2 = `https://so me-random-api.ml/canvas/wasted?avatar=${teks}`
 					exec(`wget ${anu2} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
 					fs.unlinkSync(ranp)
 					if (err) return reply(mess.error.stick)
@@ -1654,7 +1654,7 @@ case 'tagall':
 				teks += `▢ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-		teks += `└─────✪ Dylux ┃ ᴮᴼᵀ ✪───────`
+		teks += `└─────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ✪───────`
 			mentions(teks, members_id, true)
 			break
 			
@@ -1930,7 +1930,7 @@ if (args.length < 1) return reply(`✳️ Ejemplo : ${prefix + command} Lil Peep
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── DyLux ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ───'
 		    		
 		            Fg.sendMessage(from, tbuff, image, {thumbnail:fs.readFileSync(`./image/fake.jpg`), quoted: mek, caption: ytresult})
 		            break
@@ -2008,7 +2008,7 @@ break
 case 'covid19':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (!q) return reply(`✳️ Nombre de un país \n\n📌 Ejemplo : ${prefix + command} Argentina`)
+if (!q) return reply(`✳️ Nombre de un país \n\n📌 Ejemplo : ${prefix + command} Afganistan`)
 cvd = await fetchJson(`http://zekais-api.herokuapp.com/corona?country=${q}`)
 copid = `❒ *「 Covid ${q} 」* ❒ 
 
@@ -2355,14 +2355,14 @@ case 'delrol':
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Menciona o responde al mensaje del usuario para degradarlo')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '✅ Admin degradado :\n'
+						teks = '✅ Admin dado de baja :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						Fg.groupDemoteAdmin(from, mentioned)
 					} else {
-						mentions(`✅ Admin degradado : @${mentioned[0].split('@')[0]} Se convierte en miembro, Lo sentimos 😔`, mentioned, true)
+						mentions(`✅ Admin dado de baja : @${mentioned[0].split('@')[0]} Se convierte en miembro, Lo sentimos 😔`, mentioned, true)
 						Fg.groupDemoteAdmin(from, mentioned)
 					}
 		break
@@ -2504,7 +2504,7 @@ case 'aimg':
 case 'aimagen':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (!isQuotedSticker) return reply(`STICKER a IMAGEN\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n✳️ Responde a un sticker con el comando\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS DEL COMAMDO*\n\n${prefix}toimg\n${prefix}aimg`)
+if (!isQuotedSticker) return reply(`STICKER a IMAGEN\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n✳️ Responde a un sticker con el comando\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS DEL COMANDO*\n\n${prefix}toimg\n${prefix}aimg`)
 					reply(wait())
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await Fg.downloadAndSaveMediaMessage(encmedia)
@@ -2666,7 +2666,7 @@ if (!isVerify) return reply(userB(prefix))
 						/*case 'ttp':  
              if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* DyLux`)
+if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* Jiren&Wendy`)
                     reply(wait())
                     F = q
                     anu1 = await getBuffer(`https://lolhuman.herokuapp.com/api/ttp3?apikey=${lolkey}&text=${F}`)
@@ -2677,7 +2677,7 @@ if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${pre
 	case 'attp':
 	              if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* DyLux`)
+if (args.length < 1) return reply(`✳️ _Envie el texto_\n\n📌Ejemplo *${prefix + command}* Jiren&Wendy`)
 					  reply(wait())
 					var teks = encodeURIComponent(args.join(' '))
 					const attp = await getBuffer(`https://api.xteam.xyz/attp?file&text=${teks}`)
