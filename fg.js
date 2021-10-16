@@ -657,7 +657,7 @@ case 'info':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 const fgnum = `79058398754@s.whatsapp.net`
-const crisnum = "5213521175442@s.whatsapp.net"
+const crisnum = "77783426708@s.whatsapp.net"
 runtime2 = process.uptime()
 const timestamp2 = speed();
 const latensi2 = speed() - timestamp2
@@ -676,17 +676,18 @@ infobot =`⊷ *BOT*
 ▢ Grupo del Bot : 
 *${soportefg}*
 
-⊷ *AGRADECIMIENTOS* ⊶
-▢ *Jiren* :
+⊷ *HECHO POR* ⊶
+▢ *〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄* :
 @${fgnum.split("@")[0]}
-
-_*J&W*_
-_Numero alternativo_
-▢ *Jiren* :
+        Y
+▢ *༄ᵍᵃˡˡᵉᵗⁱᵗᵃ  ᮀ᭄* :
 @${crisnum.split("@")[0]}
 
-▢ DUEÑO :
-http://wa.me/+79058398754`
+▢ DUEÑOS :
+http://wa.me/+79058398754
+http://wa.me/+77783426708
+
+*〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*`
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -1375,7 +1376,7 @@ case 'staff':
 					for (let admin of groupAdmins) {
 						teks += `▢ @${admin.split('@')[0]}\n`
 					}
-					teks += `└────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ✪────`
+					teks += `└────✪ *BY:〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ✪────`
 					mentions(teks, groupAdmins, true)
 					break
 
@@ -1646,7 +1647,7 @@ case 'tagall':
 				teks += `▢ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-		teks += `└─────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ✪───────`
+		teks += `└─────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ✪───────`
 			mentions(teks, members_id, true)
 			break
 			
@@ -1922,7 +1923,7 @@ if (args.length < 1) return reply(`✳️ Ejemplo : ${prefix + command} Lil Peep
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── *BY:〲⎠⎠ɪʀᴇɴ〴᭄ Y🌹⃢⃟ꦼW҉𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽⁩* ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── *BY:〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ───'
 		    		
 		            Fg.sendMessage(from, tbuff, image, {thumbnail:fs.readFileSync(`./image/fake.jpg`), quoted: mek, caption: ytresult})
 		            break
