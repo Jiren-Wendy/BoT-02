@@ -136,7 +136,7 @@ exports.help = (prefix,pushname) => {
 _*TE AMO WENDY❤️*_
 *[Eres la manera que tiene el mundo de decirme y demostrarme lo bonita que es la vida]*
 
-*BY:〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*
+*BY:〲⎠⎠ɪʀᴇɴ〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*
 `
 	
 	} 
