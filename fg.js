@@ -678,7 +678,7 @@ infobot =`⊷ *BOT*
 
 ⊷ *CREADO POR* ⊶
 
-▢ *〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄* :
+▢ *〲⎠⎠ɪʀᴇɴ〴᭄* :
 @${fgnum.split("@")[0]}
                Y
 ▢ *༄ᵍᵃˡˡᵉᵗⁱᵗᵃ  ᮀ᭄* :
@@ -688,7 +688,7 @@ infobot =`⊷ *BOT*
 ✓http://wa.me/+79058398754
 ✓http://wa.me/+77783426708
 
-*〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*`
+*〲⎠⎠ɪʀᴇɴ〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*`
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -800,14 +800,14 @@ if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact, { quoted: mek})
 //Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo escribe si es necesario,y cuando tenga tiempo o este sin pereza te responderá.`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo escribele si es necesario, cuando tenga tiempo o este sin pereza te responderá.`, text, {quoted: res}))
  break
  case 'codueño':
  case 'coowner':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueña osea escribe si es necesario, te responderá cuando esté desocupada o sin pereza😴, así que no hagas spam a su pv.`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueña solo escribele si es necesario, te responderá cuando esté desocupada o sin pereza😴, así que no hagas spam a su pv.`, text, {quoted: res}))
  break
 
 case 'status':
