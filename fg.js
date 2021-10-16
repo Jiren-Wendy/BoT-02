@@ -124,14 +124,14 @@ fakefg = fs.readFileSync('./image/fake.jpg')
 const vcard1 = 'BEGIN:VCARD\n' 
  + 'VERSION:3.0\n' 
  + `FN:${ownerName}\n`
- + 'ORG:Dueño de DyLuxBot;\n' 
+ + 'ORG:Dueño del BoT<>☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾;\n' 
  + `TEL;type=CELL;type=VOICE;waid=${owner}:+${owner}\n`
  + 'END:VCARD'
       
 const vcard2 = 'BEGIN:VCARD\n' 
  + 'VERSION:3.0\n' 
- + `FN:Co Owner\n`
- + 'ORG:Co Dueño de DyLux;\n' 
+ + `FN:༄ᵍᵃˡˡᵉᵗⁱᵗᵃ  ᮀ᭄\n`
+ + 'ORG: Dueña del BoT<>☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾;\n' 
  + `TEL;type=CELL;type=VOICE;waid=${Cowner}:+${Cowner}\n`
  + 'END:VCARD'
  
@@ -676,16 +676,17 @@ infobot =`⊷ *BOT*
 ▢ Grupo del Bot : 
 *${soportefg}*
 
-⊷ *HECHO POR* ⊶
+⊷ *CREADO POR* ⊶
+
 ▢ *〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄* :
 @${fgnum.split("@")[0]}
-        Y
+               Y
 ▢ *༄ᵍᵃˡˡᵉᵗⁱᵗᵃ  ᮀ᭄* :
 @${crisnum.split("@")[0]}
 
 ▢ DUEÑOS :
-http://wa.me/+79058398754
-http://wa.me/+77783426708
+✓http://wa.me/+79058398754
+✓http://wa.me/+77783426708
 
 *〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽*`
 mentions(infobot, [fgnum, crisnum], true)
@@ -799,14 +800,14 @@ if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard1}, MessageType.contact, { quoted: mek})
 //Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo escribe si es necesario y cuando tenga tiempo o este sin pereza.`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueño, solo escribe si es necesario,y cuando tenga tiempo o este sin pereza te responderá.`, text, {quoted: res}))
  break
  case 'codueño':
  case 'coowner':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 Fg.sendMessage(from, {displayname: "jeff", vcard: vcard2}, MessageType.contact, { quoted: mek})
-                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi segundo dueño osea es el mismo que el primero pero bueno:v, solo chatea si es necesario`, text, {quoted: res}))
+                    .then((res) => Fg.sendMessage(from, `✅ Aqui mi dueña osea escribe si es necesario, te responderá cuando esté desocupada o sin pereza😴, así que no hagas spam a su pv.`, text, {quoted: res}))
  break
 
 case 'status':
@@ -1376,7 +1377,7 @@ case 'staff':
 					for (let admin of groupAdmins) {
 						teks += `▢ @${admin.split('@')[0]}\n`
 					}
-					teks += `└────✪ *BY:〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ✪────`
+					teks += `└────✪ *BY:〲⎠⎠ɪʀᴇɴ〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ✪────`
 					mentions(teks, groupAdmins, true)
 					break
 
@@ -1923,7 +1924,7 @@ if (args.length < 1) return reply(`✳️ Ejemplo : ${prefix + command} Lil Peep
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── *BY:〲⎠⎠ɪʀᴇɴ🇷🇺〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── *BY:〲⎠⎠ɪʀᴇɴ〴᭄Y👑⃢⃟ꦼᴡᴇɴᴅʏ-ᴄʜᴀɴ漫⃢🇲🇽* ┃ ᴮᴼᵀ ───'
 		    		
 		            Fg.sendMessage(from, tbuff, image, {thumbnail:fs.readFileSync(`./image/fake.jpg`), quoted: mek, caption: ytresult})
 		            break
